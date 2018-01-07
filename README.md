@@ -6,7 +6,7 @@
 ## 使用说明
 
 类型 |参数说明
----|---|---
+---|---
 BPRowStylePureTextImage | 纯文本图片
 BPRowStyleDetailTextAndImage |  右侧文本或图片
 BPRowStyleDetailTextField |  右侧输入框
@@ -25,6 +25,7 @@ BPRowStyleCustomView | 自定义 view
 ## 使用示例
 
 ```
+
 NSMutableArray* items = [NSMutableArray array];
 //初始化数据源
 BPRowItem* avatarItem = [[BPRowItem alloc] initWithStyle:BPRowStyleCustomView accessoryType:UITableViewCellAccessoryDisclosureIndicator selectionStyle:UITableViewCellSelectionStyleDefault backgroundColor:nil rowHeight:120 iconName:nil text:nil detailText:nil detailIcon:nil lineStyle:BPBottomLineStyleSolidColor customClass:NSStringFromClass([BPAvatarTableViewCell class])];
